@@ -19,6 +19,7 @@ const initialState = {
   displayToast: false,
   toastText: '',
   userAvatar: '',
+  useTheme: 'dark',
 }
 
 type Action =
