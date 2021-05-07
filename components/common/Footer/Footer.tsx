@@ -31,7 +31,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
                 <span className="rounded-full border border-gray-700 mr-2">
                   <Logo />
                 </span>
-                <span>ACME</span>
+                <span>Dark Vape Shop</span>
               </a>
             </Link>
           </div>
@@ -40,21 +40,21 @@ const Footer: FC<Props> = ({ className, pages }) => {
               <li className="py-3 md:py-0 md:pb-4">
                 <Link href="/">
                   <a className="text-primary hover:text-accents-6 transition ease-in-out duration-150">
-                    Home
+                    Início
                   </a>
                 </Link>
               </li>
               <li className="py-3 md:py-0 md:pb-4">
-                <Link href="/">
+                <Link href="https://wa.me/5551997685363">
                   <a className="text-primary hover:text-accents-6 transition ease-in-out duration-150">
-                    Careers
+                    Contato
                   </a>
                 </Link>
               </li>
               <li className="py-3 md:py-0 md:pb-4">
-                <Link href="/blog">
+                <Link href="https://www.instagram.com/dark.vapeshop/">
                   <a className="text-primary hover:text-accents-6 transition ease-in-out duration-150">
-                    Blog
+                    Instagram
                   </a>
                 </Link>
               </li>
@@ -97,21 +97,21 @@ const Footer: FC<Props> = ({ className, pages }) => {
         </div>
         <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4">
           <div>
-            <span>&copy; 2020 ACME, Inc. All rights reserved.</span>
+            <span>&copy; 2021 Dark Vape Shop - Powered by <a href="https://theza.co" target="_blank">Za Co</a></span>
           </div>
           <div className="flex items-center text-primary">
             <span className="text-primary">Crafted by</span>
             <a
               rel="noopener"
-              href="https://vercel.com"
-              aria-label="Vercel.com Link"
+              href="https://theza.co"
               target="_blank"
               className="text-primary"
             >
-              <Vercel
+              <h1>Za Co</h1>
+              {/* <Vercel
                 className="inline-block h-6 ml-4 text-primary"
                 alt="Vercel.com Logo"
-              />
+              /> */}
             </a>
           </div>
         </div>
