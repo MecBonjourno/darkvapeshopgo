@@ -139,7 +139,7 @@ const ProductView: FC<Props> = ({ product }) => {
             </div>
           </section>
           <div>
-            <a href="https://wa.me/5551997685363">
+            <a href='https://wa.me/5551997685363?text=Complete%20aqui%20o%20seu%20pedido'>
               <Button
                 aria-label="Peça agora"
                 type="button"
