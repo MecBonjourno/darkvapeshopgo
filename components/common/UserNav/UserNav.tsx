@@ -41,8 +41,9 @@ const UserNav: FC<Props> = ({ className }) => {
           )}
           <li className={s.item}>
             {customer ? (
-              <DropdownMenu />
+              <></>
             ) : (
+              // <DropdownMenu />
               <button
                 className={s.avatarButton}
                 aria-label="Menu"
