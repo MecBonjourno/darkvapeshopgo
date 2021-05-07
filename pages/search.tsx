@@ -106,8 +106,8 @@ export default function Search({
                   aria-expanded="true"
                 >
                   {activeCategory?.name
-                    ? `Category: ${activeCategory?.name}`
-                    : 'All Categories'}
+                    ? `Categoria: ${activeCategory?.name}`
+                    : 'Todas as Categorias'}
                   <svg
                     className="-mr-1 ml-2 h-5 w-5"
                     xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +154,7 @@ export default function Search({
                             'block lg:inline-block px-4 py-2 lg:p-0 lg:my-2 lg:mx-4'
                           }
                         >
-                          All Categories
+                          Todas as Categorias
                         </a>
                       </Link>
                     </li>
@@ -321,22 +321,21 @@ export default function Search({
                   >
                     {q ? (
                       <>
-                        There are no products that match "<strong>{q}</strong>"
+                        Sem produtos encontrados com "<strong>{q}</strong>"
                       </>
                     ) : (
                       <>
-                        There are no products that match the selected category &
-                        designer
+                        Sem produtos encontrados com categoria & marca selecionados
                       </>
                     )}
                   </span>
                 </>
               ) : q ? (
                 <>
-                  Searching for: "<strong>{q}</strong>"
+                  Pesquisando por: "<strong>{q}</strong>"
                 </>
               ) : (
-                <>Searching...</>
+                <>Procurando...</>
               )}
             </div>
           )}

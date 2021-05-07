@@ -61,7 +61,7 @@ export default function Slug({
   const router = useRouter()
 
   return router.isFallback ? (
-    <h1>Loading...</h1> // TODO (BC) Add Skeleton Views
+    <h1>Carregando...</h1> // TODO (BC) Add Skeleton Views
   ) : (
     <ProductView product={product as any} />
   )
