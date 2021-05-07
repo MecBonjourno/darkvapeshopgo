@@ -21,17 +21,17 @@ export default function Blog() {
       <div className="text-center pt-40 pb-56 bg-violet">
         <Container>
           <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
-            Welcome to Acme, the simplest way to start publishing with Next.js
+            Bem vindo a Dark Vape Shop, onde o Vapor nunca acaba.
           </h2>
           <p className="mt-3 max-w-md mx-auto text-gray-100 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            The Yeezy BOOST 350 V2 lineup continues to grow. We recently had the
-            ‘Carbon’ iteration, and now release details have been locked in for
-            this ‘Natural’ joint. Revealed by Yeezy Mafia earlier this year, the
-            shoe was originally called ‘Abez’, which translated to ‘Tin’ in
-            Hebrew. It’s now undergone a name change, and will be referred to as
-            ‘Natura`
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
           </p>
-          <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-12">
+          {/* <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-12">
             <div className="flex">
               <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
                 <img
@@ -49,12 +49,12 @@ export default function Blog() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </Container>
       </div>
       <Container>
         <div className="-mt-96 mx-auto">
-          <img src="/jacket.png" alt="Jacket" />
+          <img src="/darkvapelogo.jpeg" alt="Jacket" />
         </div>
         {/** Replace by HTML Content */}
         <div className="text-lg leading-7 font-medium py-6 text-justify max-w-6xl mx-auto">

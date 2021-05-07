@@ -97,17 +97,22 @@ const Footer: FC<Props> = ({ className, pages }) => {
         </div>
         <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4">
           <div>
-            <span>&copy; 2021 Dark Vape Shop - Powered by <a href="https://theza.co" target="_blank">Za Co</a></span>
+            <span>
+              &copy; 2021 Dark Vape Shop - Powered by{' '}
+              <a href="https://theza.co" target="_blank">
+                Za Co
+              </a>
+            </span>
           </div>
           <div className="flex items-center text-primary">
-            <span className="text-primary">Crafted by</span>
+            <span className="text-primary">Crafted by - </span>
             <a
               rel="noopener"
               href="https://theza.co"
               target="_blank"
               className="text-primary"
             >
-              <h1 style={{fontWeight: 'bold'}}> Za Co 🚅</h1>
+              <h1 style={{ fontWeight: 'bold' }}> Za Co 🚅</h1>
               {/* <Vercel
                 className="inline-block h-6 ml-4 text-primary"
                 alt="Vercel.com Logo"
