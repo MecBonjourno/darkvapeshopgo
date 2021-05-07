@@ -58,7 +58,6 @@ const UserNav: FC<Props> = ({ className }) => {
               <button
                 className={s.avatarButton}
                 aria-label="Menu"
-                onClick={() => openModal()}
               >
                 <Avatar />
               </button>
