@@ -1,7 +1,7 @@
 import cn from 'classnames'
 import Image from 'next/image'
 import { NextSeo } from 'next-seo'
-import { FC, useEffect, useState } from 'react'
+import React, { FC, useEffect, useState } from 'react'
 import s from './ProductView.module.css'
 import { Swatch, ProductSlider } from '@components/product'
 import { Button, Container, Text, useUI } from '@components/ui'
@@ -10,7 +10,6 @@ import usePrice from '@framework/product/use-price'
 import { useAddItem } from '@framework/cart'
 import { getVariant, SelectedOptions } from '../helpers'
 import WishlistButton from '@components/wishlist/WishlistButton'
-
 interface Props {
   children?: any
   product: Product
@@ -140,15 +139,19 @@ const ProductView: FC<Props> = ({ product }) => {
             </div>
           </section>
           <div>
-            <Button
-              aria-label="Add to Cart"
-              type="button"
-              className={s.button}
-              onClick={addToCart}
-              loading={loading}
-            >
-              Add to Cart
-            </Button>
+            <a href="https://wa.me/5551997685363">
+              <Button
+                aria-label="Peça agora"
+                type="button"
+                className={s.button}
+                onClick={() => {
+                  addToCart
+                }}
+                loading={loading}
+              >
+                Peça Agora
+              </Button>
+            </a>
           </div>
         </div>
         {process.env.COMMERCE_WISHLIST_ENABLED && (

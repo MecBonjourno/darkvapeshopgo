@@ -38,7 +38,7 @@ const LINKS = [
 const DropdownMenu: FC<DropdownMenuProps> = ({ open = false }) => {
   const logout = useLogout()
   const { pathname } = useRouter()
-  const { theme, setTheme } = useTheme()
+  const { theme, setTheme } = useTheme('dark')
   const [display, setDisplay] = useState(false)
   const { closeSidebarIfPresent } = useUI()
   const ref = useRef() as React.MutableRefObject<HTMLUListElement>
@@ -91,7 +91,7 @@ const DropdownMenu: FC<DropdownMenuProps> = ({ open = false }) => {
               <a
                 className={cn(s.link, 'justify-between')}
                 onClick={() => {
-                  theme === 'dark' ? setTheme('light') : setTheme('dark')
+                  theme === 'dark' ? setTheme('dark') : setTheme('dark')
                   setDisplay(false)
                 }}
               >
