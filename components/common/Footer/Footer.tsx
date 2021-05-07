@@ -58,7 +58,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
                   </a>
                 </Link>
               </li>
-              {sitePages.map((page) => (
+              {/* {sitePages.map((page) => (
                 <li key={page.url} className="py-3 md:py-0 md:pb-4">
                   <Link href={page.url!}>
                     <a className="text-primary hover:text-accents-6 transition ease-in-out duration-150">
@@ -66,10 +66,10 @@ const Footer: FC<Props> = ({ className, pages }) => {
                     </a>
                   </Link>
                 </li>
-              ))}
+              ))} */}
             </ul>
           </div>
-          <div className="col-span-1 lg:col-span-2">
+          {/* <div className="col-span-1 lg:col-span-2">
             <ul className="flex flex-initial flex-col md:flex-1">
               {legalPages.map((page) => (
                 <li key={page.url} className="py-3 md:py-0 md:pb-4">
@@ -81,7 +81,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
           <div className="col-span-1 lg:col-span-6 flex items-start lg:justify-end text-primary">
             <div className="flex space-x-6 items-center h-10">
               <a
